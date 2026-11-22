@@ -1,7 +1,11 @@
-# Multiframe Art 3.1
+# Multiframe Art 3.2
 
-ART MODE objekti lukustus: vali Objekti lukustus, puuduta esimesel fotol kontrastset detaili ning ühenda. Rakendus otsib vastavat pildilaiku teistelt fotodelt ja nihutab kaadrid selle järgi. See on lokaalne 2D translatsioon, mitte semantiline objektituvastus ega perspektiivikorrektsioon.
+Parandused: pildistamise ajal nupu lukustus, kaamera valmisoleku kontroll, salvestamise tagasiside ja veateated; objekti lukustuse juures säilitatakse pildi proportsioonid ning kunstlik hajutus ei nihuta lukustatud detaili uuesti paigast.
 
-PILDISTA nupp asub nüüd otse kaameraakna all.
+## Objekti lukustus
+Lisa vähemalt kaks pilti. Kui pildistasid äpis, sulge esmalt kaamera. Vali ART MODE ja Joondamine > Objekti lukustus. Puuduta esimesel fotol kontrastset detaili, näiteks puutüve serva. Seejärel vali Ühenda fotod.
 
-Paigaldus: asenda GitHub Pages repository juurkaustas kõik kuus faili.
+Lukustus on lokaalne pildidetaili otsing (2D nihe), mitte semantiline objekti tuvastamine ega perspektiivikorrektsioon. Eri vaatenurgad ja kattuvad objektid võivad anda ebatäpse tulemuse.
+
+## Paigaldamine
+Laadi kõik kuus faili GitHub Pages repository juurkausta. Oota avaldamist, ava rakendus ning vajadusel värskenda lehte või kustuta vana PWA vahemälu.
