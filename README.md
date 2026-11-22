@@ -1,20 +1,12 @@
-# Multiframe Art 2.0
+# Multiframe Art 3.0
 
-Androidi brauseris töötav PWA. Ava HTTPS-iga (näiteks GitHub Pages). Failid jäävad seadmesse.
+Androidi veebirakendus (PWA). Import galeriist või pildista rakenduses.
 
-## Funktsioonid
-- getUserMedia kaamera, järjestikused kaadrid ja eelmise kaadri overlay
-- Galeriist mitme foto import; süsteemi kaamera varuvariant
-- Automaatne **ainult x/y nihke** hindamine väikese pildi pikslivõrdluse põhjal
-- Keskmistamine, lighten, screen ja multiply; pehmus, hajutus, värvid
-- 2000/3000/4500/6000 px JPG/PNG eksport
+## Režiimid
+- **Kunstiline tulemus:** mitmiksäritus, sulatusrežiimid, liikumise hajutus ja pehmus.
+- **Täpne ühendamine:** automaatne 2D nihkejoondamine ja keskmistamine ilma kunstliku hajutuseta. Ei korrigeeri perspektiivi ega pööramist. Ei ole HDR ega fookusvirnastamine.
 
-## Piirangud
-- Ei ole perspektiivi, pöörde, skaala ega objektipõhist semantilist joondamist.
-- Keskpunkti puudutamine annab loomingulise nihke, mitte objekti tuvastuse.
-- Kaamera vajab HTTPS-i või localhosti ja brauseri kaameraluba.
-- Suured ekspordid võivad Androidi brauseris mälupuuduse tõttu ebaõnnestuda.
-- Browser camera kvaliteet võib erineda telefoni kaameraäpi kvaliteedist.
+Ekspordi JPG/PNG kuni 6000 px pikema küljega, sõltuvalt seadme mälust. Kõik toimub brauseris kohapeal.
 
-## Paigaldamine
-Laadi selle kausta failid GitHub Pagesi või mõnele HTTPS-serverile, ava Chrome'is ja vali menüüst Install app / Lisa avakuvale.
+## Paigaldus
+Laadi selle kausta failid GitHubi repository juurkausta. GitHub Pages: main / root. Värskenda veebilehte; vajadusel sulge ja ava paigaldatud PWA uuesti, et vana vahemälu asenduks.
