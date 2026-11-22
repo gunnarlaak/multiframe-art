@@ -1,12 +1,7 @@
-# Multiframe Art 3.0
+# Multiframe Art 3.1
 
-Androidi veebirakendus (PWA). Import galeriist või pildista rakenduses.
+ART MODE objekti lukustus: vali Objekti lukustus, puuduta esimesel fotol kontrastset detaili ning ühenda. Rakendus otsib vastavat pildilaiku teistelt fotodelt ja nihutab kaadrid selle järgi. See on lokaalne 2D translatsioon, mitte semantiline objektituvastus ega perspektiivikorrektsioon.
 
-## Režiimid
-- **Kunstiline tulemus:** mitmiksäritus, sulatusrežiimid, liikumise hajutus ja pehmus.
-- **Täpne ühendamine:** automaatne 2D nihkejoondamine ja keskmistamine ilma kunstliku hajutuseta. Ei korrigeeri perspektiivi ega pööramist. Ei ole HDR ega fookusvirnastamine.
+PILDISTA nupp asub nüüd otse kaameraakna all.
 
-Ekspordi JPG/PNG kuni 6000 px pikema küljega, sõltuvalt seadme mälust. Kõik toimub brauseris kohapeal.
-
-## Paigaldus
-Laadi selle kausta failid GitHubi repository juurkausta. GitHub Pages: main / root. Värskenda veebilehte; vajadusel sulge ja ava paigaldatud PWA uuesti, et vana vahemälu asenduks.
+Paigaldus: asenda GitHub Pages repository juurkaustas kõik kuus faili.
